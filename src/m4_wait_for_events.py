@@ -31,7 +31,7 @@ Ultimately you should be comfortable with both approaches.
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
          and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
 
@@ -103,6 +103,10 @@ def sum_until_prime_input():
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
+    while True:
+        intger = int(input('Enter an Integer. '))
+        if intger % 2 == 1:
+            break
 
 def run_test_next_prime():
     """ Tests the   next_prime    function. """
